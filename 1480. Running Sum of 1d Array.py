@@ -20,3 +20,10 @@ class Solution(object):
             nums[i] += nums[i-1]
         return nums
 
+def main():
+    solution = Solution()
+    print(solution.runningSum([1,2,3,4]))
+    
+if __name__ == "__main__":
+    main()
+
